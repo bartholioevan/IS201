@@ -1,0 +1,97 @@
+/* General Body Styles */
+body {
+    background-color:slategray; /* light gray background */
+    font-family: Arial, sans-serif;
+    color: #ffffff;
+    margin: 20px;
+}
+
+/* Container for layout */
+#container {
+    width: 80%;
+    margin: auto;
+}
+
+/* Image styling */
+.image-container img {
+    width: 100%; /* Responsive image */
+    max-width: 600px; /* Limit max size */
+    display: block; /* Remove any inline space */
+    margin: 0 auto; /* Centering */
+}
+
+/* Video container */
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
+    height: 0;
+    overflow: hidden;
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/* Styling lists */
+
+ol li {
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style-type: square;
+    padding-top: 10px;
+}
+
+/* Link styling */
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+h1 {
+    font-size: 80px;
+    font-weight: 600;
+    background-image: linear-gradient(to left, #f7a0a0, #b393d3);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;text-align: center;
+    margin-bottom: 0;
+}
+
+h2 {
+    font-size: 25px;
+    font-weight: 600;
+    background-image: linear-gradient(to left, #b393d3, #f7a0a0);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;text-align: left;
+}
+
+h3 {
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 0;
+}
+
+footer {
+    text-align: center;
+    padding-top: 25px;
+}
+
+a:hover.header{
+    text-decoration: underline;
+}
+
+.tableauPlaceholder {
+    margin: 0 auto;
+}
